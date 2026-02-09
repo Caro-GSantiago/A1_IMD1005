@@ -1,0 +1,278 @@
+::before, 
+::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+}
+
+.h1 {
+    font-family: 'Barriecito';
+    font-size: 96px;
+    color: black;
+    line-height: 115%;
+    letter-spacing: -2%;
+    text-align: center;
+}
+.h2 {
+    font-family: 'Barriecito';
+    font-size: 48px;
+    color:black;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+.h4 {
+    font-family: 'Barriecito';
+    font-size: 36px;
+    color: black;
+    line-height: 150%;
+    letter-spacing: 0%;
+}
+
+
+.xlargeText {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 48px;
+    color: black;
+}
+.largeText {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 36px;
+    color: black;
+}
+.mediumText {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 24px;
+    color: black;
+}
+.smallText {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 164px;
+    width: 100%;
+    background-color: rgb(246 247 243);
+}
+.navBar.h2 {
+    justify-content: flex-start;
+    margin-left: 52px;
+}
+.navBar.ul {
+    justify-content: flex-end;
+    gap: 48px;
+    float: left;
+    text-decoration: none;
+    list-style-type: none;
+    margin: 52px 30px;
+    width: 635px;
+}
+
+
+.btnCart {
+    width: 78px;
+    height: 52px;
+    color: rgb(246 247 243);
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 14px;
+    border: 1px solid black;
+    border-radius: 2px;
+}
+.btnWhite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgb(246 247 243);
+    padding: 32px 20px;
+    border: 3px solid black;
+    border-radius: 2px;
+}
+.btnWhite.shopMain {
+    width: 175px;
+    height: 76px;
+    rotate: 3.67deg;
+}
+.btnWhite.shopPins {
+    width: 216px;
+    height: 96px;
+}
+.btnWhite.shopSec {
+    width: 271px;
+    height: 113px;
+}
+
+
+.homeBanner {
+    display: flex;
+    flex-direction: column;
+    background-image: url('home_banner.jpg');
+    background-position: center;            
+    background-repeat: no-repeat;        
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    height: 758px;
+
+}
+
+
+.carouselBanner {
+    display: flex;
+    max-width: 100%;
+    height: 116px;
+    background-color: black;
+    color: rgb(246 247 243);
+    align-items: center;
+    white-space: nowrap;
+    margin: 0px;
+}
+.carouselBanner.largeText {
+    animation: scroll-left 10s linear infinite;
+}
+ @keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    50% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+
+.homeMain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+    height: 1301px;
+    background-color: rgb(246 247 243);
+}
+
+.homeMain.sectionA {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1336px;
+    height: 460px;
+    margin: 50px 100px;
+}
+.homeMain.sectionA.img {
+    justify-content: flex-start;
+    max-width: 671px;
+    overflow: hidden;
+    margin: 0px;
+}
+.homeMain.sectionA.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.homeMain.sectionB {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1336px;
+    height: 574px;
+    margin: 50px 100px;
+}
+.homeMain.sectionB.img {
+    justify-content: flex-end;
+    max-height: 100%;
+    margin: 0px;
+}
+.homeMain.sectionB.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+
+.shippingBanner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 550px;
+    background-color: rgb(191 214 214);
+}
+.shippingBanner.img {
+    width: 534.79px;
+    height: 300.72;
+    rotate: -6deg;
+    margin: 25px 50px;
+    background: transparent;
+}
+.shippingBanner.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 25px;
+    line-height: 50%;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-height: 264px;
+    background-color: black;
+}
+.footer.h4 {
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 50px 50px;
+    color: rgb(246 247 243);
+}
+.footer.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 405px;
+    height: 168px;
+    row-gap: 31px;
+    margin: 20px 50px;
+    color: rgb(246 247 243);
+}
+.footer.nav.ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 24px;
+    white-space: nowrap;
+    color: rgb(246 247 243);
+    text-decoration: none;
+    list-style-type: none;
+}
