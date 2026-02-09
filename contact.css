@@ -1,0 +1,12 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    max-width: 100%;
+    background-image: url("contactBG.jpeg");
+    background-position: center;            
+    background-repeat: no-repeat;        
+    background-size: cover;
+}
