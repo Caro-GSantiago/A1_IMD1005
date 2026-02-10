@@ -1,12 +1,75 @@
 .main {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
-    height: 1300px;
+    height: 700px;
     max-width: 100%;
     background-image: url("contactBG.jpeg");
     background-position: center;            
     background-repeat: no-repeat;        
     background-size: cover;
+    padding: 80px 80px;
+    gap: 15px;
+}
+
+h1 {
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 420px;
+    background-color: rgb(246 247 243);
+    padding: 20px 20px;
+    border: 1px solid rgb(246 247 243);
+    border-radius: 10px;  
+    box-shadow: 2px 5px 5px gray;
+}
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 380px;
+    background-color: rgb(191 214 214);
+    padding: 20px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+ul {
+    list-style-type: none;
+    align-items: center;
+}
+
+label {
+    font-family: 'Jost';
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+}
+
+.btnSubmit {
+    width: 70px;
+    height: 35px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    color: rgb(246 247 243);
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: scale 200ms ease;
 }
