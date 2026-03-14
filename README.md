@@ -6,3 +6,11 @@ My client is a business that specializes in printing custom vinyl stickers and p
 Some colours were changed on the homepage for aesthetics and increased contrast. I made the "Shop Pins" button blue so it would stand out from the background more, and I made the footer black.
 The reviews section was removed from the home page for the sake of time.
 AI usage: none.
+
+Assignment 3:
+1. Responsive Navigation
+2. Form Validation
+3. Back to Top Button
+4. Dynamic Content Rendering
+6. Live Filtering
+AI usage: none. 
